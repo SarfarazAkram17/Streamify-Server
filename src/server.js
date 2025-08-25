@@ -20,9 +20,9 @@ app.use(
 app.use(cookieParser());
 app.use(express.json());
 
-app.use("/api/auth", authRoutes);
-app.use("/api/users", userRoutes);
-app.use("/api/chat", chatRoutes);
+app.use("/auth", authRoutes);
+app.use("/users", userRoutes);
+app.use("/chat", chatRoutes);
 
 app.listen(PORT, () => {
   console.log(`server running on ${PORT}`);
