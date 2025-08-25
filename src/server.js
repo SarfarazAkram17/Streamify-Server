@@ -13,7 +13,7 @@ const PORT = process.env.PORT;
 
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: ["http://localhost:5173", "https://elegant-sherbet-4e4e88.netlify.app"],
     credentials: true,
   })
 );
