@@ -15,7 +15,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://elegant-sherbet-4e4e88.netlify.app",
+      "https://streamify-sarfaraz.netlify.app",
     ],
     credentials: true,
   })
